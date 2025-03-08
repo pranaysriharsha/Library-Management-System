@@ -142,7 +142,7 @@ When you logged in as a Librarian You will see the following menu:
 - **Enter `9`** to display all books
 - **Enter `10`** to exit
 
-# File Structure
+## File Structure
 
 LIBMS/  
 ├── .vscode/ # VS Code settings folder  
@@ -166,7 +166,7 @@ LIBMS/
 ├── 📄 user.h # Header file for User class  
 └── 📄 Users.txt # Sample user data
 
-# ⚠️ Important Instructions
+## ⚠️ Important Instructions
 
 Please follow these guidelines to ensure smooth usage and testing of the system:
 
@@ -177,7 +177,7 @@ Please follow these guidelines to ensure smooth usage and testing of the system:
 - ➤ **Do not modify the data format** in the `.txt` files directly.
 - ➤ Always update or modify data using the **command line interface** to maintain data integrity.
 
-# 📞 Contact
+## 📞 Contact
 
 If you have any questions or suggestions, feel free to reach out. I'm happy to help!
 
