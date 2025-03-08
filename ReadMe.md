@@ -53,14 +53,22 @@ g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp l
 ## Data Format
 
 BookId,Title,Author,Publishers,ISBN,Year,Status,Borrowed ID
+
 **Sample**
+
+```bash
 1,Introduction to Algorithms,Thomas H. Cormen,MIT Press,978-0-262-03384-8,2009,Borrowed,5
+```
 
 status can be anything among "Available","Borrowed" and "Reserved"
 
 UserRole,UserId,RoleId,Name,Password,Email,AmountPaid,NoOfBorrowedBooks,Book1,Time1,...,NoOfBooksInHistory,BookIDs
+
 **Sample**
+
+```bash
 Student,5,231052,akhil,pbat123,akhil23@iitk.ac.in,0,3,10,2025-03-07 16:51:14,16,2025-03-07 16:53:43,1,2025-03-08 10:10:11,4,1,2,15,6
+```
 
 UserRole can be anything among "Student","Faculty" and "Librarian"
 RoleId:
