@@ -37,9 +37,8 @@ int main()
         {
             cout << "Error in input type" << endl;
             cout << "Please Give a valid input next time" << endl;
-            cout << "Program is terminating" << endl;
-
-            break;
+            cin.clear(); // Clear error state
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
         }
         cout << "------------------------------------" << endl;
         cout << "Enter 1 to login as Student" << endl;
@@ -74,7 +73,8 @@ int main()
                         if (cin.fail())
                         {
                             cout << "Error in input type" << endl;
-                            break;
+                            cin.clear(); // Clear error state
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
                         }
                         cout << "------------------------------------" << endl;
                         cout << "Enter 1 to display all books" << endl;
@@ -168,7 +168,6 @@ int main()
                             // If invalid choice
                             cout << "Invalid Choice" << endl;
                             cout << "------------------------------------" << endl;
-                            break;
                         }
 
                         // Save data to file at the end of each iteration
@@ -187,7 +186,7 @@ int main()
                 // If student not found
                 cout << "Student not found" << endl;
                 cout << "------------------------------------" << endl;
-                break;
+                continue;
             }
             SaveData(library);
         }
@@ -214,7 +213,9 @@ int main()
                     {
                         if (cin.fail())
                         {
-                            break;
+                            cout << "Error in input type" << endl;
+                            cin.clear(); // Clear error state
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
                         }
                         cout << "------------------------------------" << endl;
                         cout << "Enter 1 to display all books" << endl;
@@ -293,7 +294,7 @@ int main()
                             // If invalid choice
                             cout << "Invalid Choice" << endl;
                             cout << "Please enter a valid choice" << endl;
-                            break;
+                            continue;
                         }
                         cout << "------------------------------------" << endl;
                     }
@@ -310,7 +311,7 @@ int main()
                 // If faculty not found
                 cout << "Faculty not found" << endl;
                 cout << "-------------------------------------" << endl;
-                break;
+                continue;
             }
         }
         // Librarian Login
@@ -335,7 +336,9 @@ int main()
                     {
                         if (cin.fail())
                         {
-                            break;
+                            cout << "Error in input type" << endl;
+                            cin.clear(); // Clear error state
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
                         }
                         cout << "------------------------------------" << endl;
                         cout << "Enter 1 to display all books" << endl;
@@ -509,7 +512,7 @@ int main()
                             {
                                 cout << "Invalid Choice" << endl;
                                 cout << "------------------------------------" << endl;
-                                break;
+                                continue;
                             }
                         }
                         else if (librarianChoice == 5)
@@ -937,7 +940,7 @@ int main()
                             cout << "Invalid Choice" << endl;
                             cout << "Please enter a valid choice" << endl;
                             cout << "------------------------------------" << endl;
-                            break;
+                            continue;
                         }
                         cout << "------------------------------------" << endl;
                     }
@@ -950,7 +953,7 @@ int main()
             else
             {
                 cout << "Librarian not found" << endl;
-                break;
+                continue;
             }
         }
         else if (choice == 4)
@@ -961,7 +964,7 @@ int main()
         else
         {
             cout << "Invalid Choice" << endl;
-            break;
+            continue;
         }
     }
 

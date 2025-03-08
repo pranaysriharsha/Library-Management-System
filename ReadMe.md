@@ -184,6 +184,7 @@ Please follow these guidelines to ensure smooth usage and testing of the system:
   - For **Book IDs**, refer to the **Books.txt** or use the **Display Books** command in the interface for correct numbers.
 - ➤ **Do not modify the data format** in the `.txt` files directly.
 - ➤ Always update or modify data using the **command line interface** to maintain data integrity.
+- ➤ UserID ,studentID for student, EmployeeID for faculty and LibrarianID for librarian are integers.
 
 ## 📞 Contact
 

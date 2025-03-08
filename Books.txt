@@ -1,5 +1,5 @@
-1,Introduction to Algorithms,Thomas H. Cormen,MIT Press,978-0-262-03384-8,2009,Borrowed,5
-2,Computer Architecture,Dr.Pranay Sri Harsha,JK Publishers,978-3-16-148410-0,2003,Available,-1
+1,Introduction to Algorithms,Thomas H. Cormen,MIT Press,978-0-262-03384-8,0,Borrowed,5
+2,Computer Architecture,Dr.Pranay Sri Harsha,JK Publishers,978-3-16-148410-0,0,Available,-1
 3,Software Development,Dr.Pranay Sri Harsha,JK Publishers,978-3-16-148410-0,2003,Borrowed,21
 4,Operating System Concepts,Abraham Silberschatz,Wiley,978-0-470-12872-5,2012,Available,-1
 5,The Night Circus,Erin Morgenstern,Doubleday,978-0-385-53463-5,2011,Borrowed,25
