@@ -39,15 +39,20 @@ Option 1: Compile by Listing Files (Recommended)
 
 ```bash
 g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp librarian.cpp -o main.exe # Compile all .cpp files
-./main                                                                                                   # Runs the compiled executable
+```
 
+```bash
+./main                                                                                                   # Runs the compiled executable
 ```
 
 Option 2: Compile Using find
 
 ```bash
 g++ $(find . -name "*.cpp") -o main # Compiles all .cpp files
-./main                              # Runs the compiled executable
+```
+
+```bash
+./main                                                                                                   # Runs the compiled executable
 ```
 
 ## Data Format

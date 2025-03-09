@@ -1,5 +1,5 @@
+Student,13,231194,John Doe,jhon@123,email@iitk.ac.in,0,1,8,2025-03-09 18:09:36,0
 Student,5,231052,akhil,pbat123,pbakil@iitk.ac.in,0,3,1,2025-01-08 10:10:11,20,2025-03-09 15:16:10,19,2025-03-09 16:05:58,7,1,2,15,6,10,16,16
-Student,13,231194,John Doe,password,email@iitk.ac.in,0,0,0
 Student,21,567890,rahul,rahul@123,rahul@iitk.ac.in,50,2,7,2025-02-10 14:15:30,3,2025-03-02 18:20:10,1,8
 Student,25,678901,sneha,sneha@123,sneha@iitk.ac.in,200,2,5,2025-01-15 10:10:10,9,2025-03-05 19:40:25,2,9,10
 Student,30,890345,Anirudh,anirudh@123,anirudh23@iitk.ac.in,0,0,0

@@ -5,7 +5,7 @@
 5,The Night Circus,Erin Morgenstern,Doubleday,978-0-385-53463-5,2011,Borrowed,25
 6,Computer Organisation,Dr.Pranay Sri Harsha,JK Publishers,978-3-16-148410-0,2003,Available,-1
 7,Artificial Intelligence: A Modern Approach,Stuart Russell,Pearson,978-0-13-604259-4,2010,Borrowed,21
-8,Database System Concepts,Abraham Silberschatz,McGraw-Hill,978-0-07-352332-3,2011,Available,-1
+8,Database System Concepts,Abraham Silberschatz,McGraw-Hill,978-0-07-352332-3,2011,Borrowed,13
 9,Deep Learning,Ian Goodfellow,MIT Press,978-0-262-03561-3,2016,Borrowed,25
 10,The Pragmatic Programmer,Andrew Hunt,Addison-Wesley,978-0-201-61622-4,1999,Available,-1
 11,Clean Code,Robert C. Martin,Prentice Hall,978-0-13-235088-4,2008,Available,-1
