@@ -37,11 +37,11 @@ git clone https://github.com/pranaysriharsha/Library-Management-System.git
 Option 1: Compile by Listing Files (Recommended)
 
 ```bash
-g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp librarian.cpp -o main.exe # Compile all .cpp files
+g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp librarian.cpp -o main.exe
 ```
 
 ```bash
-./main                                                                                                   # Runs the compiled executable
+./main
 ```
 
 Option 2: Compile Using find
