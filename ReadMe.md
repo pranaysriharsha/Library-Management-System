@@ -32,6 +32,10 @@ A comprehensive Library Management System built using **C++** to manage books, u
 git clone https://github.com/pranaysriharsha/Library-Management-System.git
 ```
 
+```bash
+cd Library-Management-System
+```
+
 ## Run Instructions
 
 Option 1: Compile by Listing Files (Recommended)
