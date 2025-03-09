@@ -47,11 +47,11 @@ g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp l
 Option 2: Compile Using find
 
 ```bash
-g++ $(find . -name "*.cpp") -o main # Compiles all .cpp files
+g++ $(find . -name "*.cpp") -o main
 ```
 
 ```bash
-./main                                                                                                   # Runs the compiled executable
+./main
 ```
 
 ## Data Format
