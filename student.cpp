@@ -110,13 +110,13 @@ void Student::displayFine(Library &library)
 
         // Calculate days borrowed
         int daysBorrowed = (now - borrowTimestamp) / (60 * 60 * 24);
-        cout << "maxtime:" << maxBorrowPeriod << endl;
-        cout << "daysBorrowed:" << daysBorrowed << endl;
 
         // Get user-specific fine settings
         if (daysBorrowed > maxBorrowPeriod)
         { // `maxBorrowPeriod` is inherited from `User`
             hasFines = true;
+            cout << "maxtime:" << maxBorrowPeriod << endl;
+            cout << "daysBorrowed:" << daysBorrowed << endl;
             int overdueDays = daysBorrowed - maxBorrowPeriod;
             int fineAmount = overdueDays * finePerDay; // `finePerDay` is inherited from `User`
             totalAmount += fineAmount;

@@ -367,6 +367,13 @@ int main()
                             int year;
                             cout << "Enter Book ID you want to add: \n";
                             cin >> newBookId;
+                            if (cin.fail())
+                            {
+                                cout << "Invalid Book ID! Please enter a valid integer.\n";
+                                cin.clear();                                         // Clear the fail state
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                continue;
+                            }
                             if (library.findBookById(newBookId) != nullptr)
                             {
                                 cout << "Book with Book ID already exist" << endl;
@@ -414,6 +421,13 @@ int main()
                                 string name, password, email;
                                 cout << " Enter User ID: \n";
                                 cin >> newStudentId;
+                                if (cin.fail())
+                                {
+                                    cout << "Invalid User ID! Please enter a valid integer.\n";
+                                    cin.clear();                                         // Clear the fail state
+                                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                    continue;
+                                }
                                 if (library.userExists(newStudentId))
                                 {
                                     cout << "User with User ID already exist" << endl;
@@ -423,6 +437,13 @@ int main()
 
                                 cout << "Enter Roll Number: \n";
                                 cin >> rollNo;
+                                if (cin.fail())
+                                {
+                                    cout << "Invalid Roll Number! Please enter a valid integer.\n";
+                                    cin.clear();                                         // Clear the fail state
+                                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                    continue;
+                                }
                                 if (library.findStudentById(rollNo))
                                 {
                                     cout << "Student with Roll No already exist" << endl;
@@ -447,6 +468,13 @@ int main()
                                 string name, password, email;
                                 cout << "Enter User ID: \n";
                                 cin >> newFacultyId;
+                                if (cin.fail())
+                                {
+                                    cout << "Invalid User ID! Please enter a valid integer.\n";
+                                    cin.clear();                                         // Clear the fail state
+                                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                    continue;
+                                }
                                 if (library.userExists(newFacultyId))
                                 {
                                     cout << "User with User ID already exist" << endl;
@@ -455,6 +483,13 @@ int main()
                                 }
                                 cout << "Enter Employee ID: \n";
                                 cin >> employeeId;
+                                if (cin.fail())
+                                {
+                                    cout << "Invalid Employee ID! Please enter a valid integer.\n";
+                                    cin.clear();                                         // Clear the fail state
+                                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                    continue;
+                                }
                                 if (library.findFacultyById(employeeId))
                                 {
                                     cout << "Faculty with Employee ID already exist" << endl;
@@ -479,6 +514,13 @@ int main()
                                 string name, password, email;
                                 cout << "Enter User ID: ";
                                 cin >> newLibrarianId;
+                                if (cin.fail())
+                                {
+                                    cout << "Invalid User ID! Please enter a valid integer.\n";
+                                    cin.clear();                                         // Clear the fail state
+                                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                    continue;
+                                }
                                 if (library.userExists(newLibrarianId))
                                 {
                                     cout << "User with User ID already exist" << endl;
@@ -487,6 +529,13 @@ int main()
                                 }
                                 cout << "Enter Librarian ID: ";
                                 cin >> librarianId;
+                                if (cin.fail())
+                                {
+                                    cout << "Invalid Librarian ID! Please enter a valid integer.\n";
+                                    cin.clear();                                         // Clear the fail state
+                                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                                    continue;
+                                }
                                 if (library.findLibrarianById(librarianId))
                                 {
                                     cout << "Librarian with Librarian ID already exist" << endl;
@@ -559,7 +608,7 @@ int main()
                             else if (input == 3)
                             {
                                 int librarianId;
-                                cout << "Enter Librarian ID of librarian you want to remove: ";
+                                cout << "Enter Librarian ID of librarian you want to remove: " << endl;
                                 cout << "------------------------------------" << endl;
                                 cin >> librarianId;
                                 int librarianIdNo = library.getLibrarianIdFromLibrarianId(librarianId);
@@ -658,7 +707,7 @@ int main()
                                     string status;
                                     cout << "Enter 1 to update status to Reserved" << endl;
                                     cout << "Enter 2 to update status from Reserved to Available" << endl;
-                                    cout << "Enter 2 to exit" << endl;
+                                    cout << "Enter 3 to exit" << endl;
                                     cout << "Enter new status:";
 
                                     int statusChoice;

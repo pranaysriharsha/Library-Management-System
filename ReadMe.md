@@ -35,14 +35,7 @@ cd Library-Management-System
 
 ## Run Instructions
 
-Option 1: Compile Using find (Recommended for Linux/Unix)
-
-```bash
-g++ $(find . -name "*.cpp") -o main # Compiles all .cpp files
-./main                              # Runs the compiled executable
-```
-
-Option 2: Compile by Listing Files (Recommended for Windows)
+Option 1: Compile by Listing Files (Recommended)
 
 ```bash
 g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp librarian.cpp -o main.exe # Compile all .cpp files
@@ -50,7 +43,16 @@ g++ main.cpp faculty.cpp user.cpp account.cpp library.cpp book.cpp student.cpp l
 
 ```
 
+Option 2: Compile Using find
+
+```bash
+g++ $(find . -name "*.cpp") -o main # Compiles all .cpp files
+./main                              # Runs the compiled executable
+```
+
 ## Data Format
+
+#### Books Data Format
 
 BookId,Title,Author,Publishers,ISBN,Year,Status,Borrowed ID
 
@@ -62,12 +64,26 @@ BookId,Title,Author,Publishers,ISBN,Year,Status,Borrowed ID
 
 status can be anything among "Available","Borrowed" and "Reserved"
 
-UserRole,UserId,RoleId,Name,Password,Email,AmountPaid,NoOfBorrowedBooks,Book1,Time1,...,NoOfBooksInHistory,BookIDs
+#### Users Data Format
+
+###### For Students and Faculty
+
+UserRole,UserId,RoleId,Name,Password,Email,AmountPaid,NoOfBorrowedBooks,BookID1,Time1,...,NoOfBooksInHistory,BookID1,BookID2...
 
 **Sample**
 
 ```bash
 Student,5,231052,akhil,pbat123,akhil23@iitk.ac.in,0,3,10,2025-03-07 16:51:14,16,2025-03-07 16:53:43,1,2025-03-08 10:10:11,4,1,2,15,6
+```
+
+###### For Librarians
+
+UserRole,UserId,RoleId,Name,Password,email
+
+**Sample**
+
+```bash
+Librarian,34,578466,Aarav Verma,Aarav123,aarav@iitk.ac.in
 ```
 
 UserRole can be anything among "Student","Faculty" and "Librarian"

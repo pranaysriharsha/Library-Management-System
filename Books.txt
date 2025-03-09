@@ -8,13 +8,14 @@
 8,Database System Concepts,Abraham Silberschatz,McGraw-Hill,978-0-07-352332-3,2011,Available,-1
 9,Deep Learning,Ian Goodfellow,MIT Press,978-0-262-03561-3,2016,Borrowed,25
 10,The Pragmatic Programmer,Andrew Hunt,Addison-Wesley,978-0-201-61622-4,1999,Available,-1
-11,Clean Code,Robert C. Martin,Prentice Hall,978-0-13-235088-4,2008,Borrowed,7
+11,Clean Code,Robert C. Martin,Prentice Hall,978-0-13-235088-4,2008,Available,-1
 12,Design Patterns,Erich Gamma,Addison-Wesley,978-0-201-63361-0,1994,Available,-1
 13,The Alchemist,Paulo Coelho,HarperCollins,978-0062315007,1988,Available,-1
 14,New Book,pranay,bowling publishers,978-0890,2023,Available,-1
-15,Harry Potter,JK Rowling,Bloomsbury Publishers,978-0-7475-3269-9,2005,Available,-1
-16,Introduction to the Theory of Computation,Michael Sipser,Cengage,978-0-534-95097-2,2012,Borrowed,5
+15,Automate the boring stuff with Python,AI Sweigart,No Starch Press,978-1593275990,2015,Reserved,-1
+16,Introduction to the Theory of Computation,Michael Sipser,Cengage,978-0-534-95097-2,2012,Available,-1
 17,Computer Networks,Andrew S. Tanenbaum,Pearson,978-0-13-212695-3,2010,Available,-1
 18,The C Programming Language,Brian Kernighan,Prentice Hall,978-0-13-110362-7,1988,Available,-1
-19,Python Crash Course,Eric Matthes,No Starch Press,978-1-59327-928-8,2015,Available,-1
+19,Python Crash Course,Eric Matthes,No Starch Press,978-1-59327-928-8,2015,Borrowed,5
 20,Data Structures and Algorithms Made Easy,Narasimha Karumanchi,CareerMonk,978-1-4665-1833-6,2016,Borrowed,5
+21,Clean Code:A Handbook of Agile Software Craftsmanship,Robert C.Martin,Prentice Hall,978-0-13-235088-4,2008,Borrowed,7
